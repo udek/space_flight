@@ -1,0 +1,64 @@
+#myprofile {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 12px;
+}
+
+// ProfiledMission styles
+.mis-profile {
+  min-height: 100px;
+  width: 40%;
+  border-radius: 12px;
+
+  .mis-col {
+    flex: 1;
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(226 232 240 / 1);
+  }
+
+  .mis-data {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 12px 16px;
+
+    h3 {
+      flex: 1;
+      color: black;
+      margin: 12px;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+
+    div {
+      flex: 1;
+
+      button {
+        float: right;
+      }
+    }
+
+    &:not(:last-child) {
+      border-bottom: 2px solid rgb(226 232 240 / 1);
+    }
+  }
+
+  .mis-none {
+    color: rgb(203 213 225 / 1);
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,41 @@
+#rocket-filter {
+  flex: 1;
+
+  h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(203, 213, 225);
+  }
+
+  ul {
+    border: 1px solid #e0e0e0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      padding: 12px 12px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      h3 {
+        color: black;
+        margin: 12px;
+      }
+
+      button.cn {
+        background-color: #eee;
+        color: black;
+        padding: 5px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border: 1px solid #ccc;
+      }
+
+      &:not(:last-child) {
+        border-bottom: 1px solid  #e0e0e0;
+      }
+    }
+  }
+}

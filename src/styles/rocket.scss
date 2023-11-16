@@ -1,0 +1,66 @@
+article {
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #fff;
+  margin: 0 auto;
+
+  img {
+    flex-grow: 1;
+    max-width: 250px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+
+  section {
+    flex-grow: 1;
+    padding: 10px;
+    width: 300px;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      line-height: 24px;
+
+      span {
+        color: #fff;
+        background-color: #22859e;
+        padding: 2px 5px;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+
+      .read-more {
+        background-color: #fff;
+        border: none;
+        padding: 0;
+        padding-left: 5px;
+        font-style: italic;
+        font-size: inherit;
+        color: #007bff;
+      }
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border: 1px solid #ccc;
+    }
+
+    .no-reserved {
+      background-color: #eee;
+      color: inherit;
+    }
+  }
+}
