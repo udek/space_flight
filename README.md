@@ -38,6 +38,7 @@
 - React
 - Redux
 ### Key Features <a name="key-features"></a>
+- [Live Demo Link](https://space-2cht.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,6 +79,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **Add responsive layouts**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
